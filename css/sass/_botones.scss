@@ -1,0 +1,34 @@
+
+
+
+/** Botones **/
+
+
+.btn {
+    display: block;
+    text-align: center;
+    padding: 1rem 3rem;
+    margin: 2rem 0;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 2rem;
+    flex: 0 0 100%;
+    &:hover{
+        cursor: pointer;
+    }
+    @media (min-width: 768px){
+        display: inline-block;
+        flex: 0 0 auto;
+    }
+}
+
+
+.btn-primario {
+    background-color: #000000;
+}
+.btn-secundario {
+    background-color: #784d3c;
+}
